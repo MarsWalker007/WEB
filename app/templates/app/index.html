@@ -1,0 +1,39 @@
+{% extends "app/layout.html" %}
+
+{% block content %}
+
+<div class="jumbotron">
+    <h1>Сайт на Джанго</h1>
+    <p class="lead">
+        Django — свободный фреймворк для веб-приложений на языке Python, использующий шаблон проектирования . 
+        Проект поддерживается организацией Django Software Foundation.
+    </p>
+    <p><a href="https://www.djangoproject.com/" class="btn btn-primary btn-large">Узнать больше &raquo;</a></p>
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>С чего начать?</h2>
+        <p>
+            Сайт на Django строится из одного или нескольких приложений, которые рекомендуется делать отчуждаемыми и подключаемыми.
+            Это одно из существенных архитектурных отличий этого фреймворка от некоторых других (например, Ruby on Rails).
+            Один из основных принципов фреймворка — DRY (англ. Don't repeat yourself)
+            Также, в отличие от других фреймворков, обработчики URL в Django конфигурируются явно при помощи регулярных выражений.
+            Для работы с базой данных Django использует собственный ORM,
+            в котором модель данных описывается классами Python, и по ней генерируется схема базы данных.
+        </p>
+        <p><a class="btn btn-default" href="https://djangobook.com/django-tutorials/">Узнать больше &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Получи больше библиотек</h2>
+        <p>Здесь находятся библиотеки, которые помогут с программированием на Python</p>
+        <p><a class="btn btn-default" href="https://pypi.org/">Узнать больше &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Microsoft Azure</h2>
+        <p>Вы можете выложить ваш сайт на Microsoft Azure, используя бесплатный пробный период</p>
+        <p><a class="btn btn-default" href="http://azure.microsoft.com">Узнать больше &raquo;</a></p>
+    </div>
+</div>
+
+{% endblock %}
